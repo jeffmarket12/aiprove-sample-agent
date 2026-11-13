@@ -1,0 +1,14 @@
+{
+  "name": "aiprove-sample-agent",
+  "version": "1.0.0",
+  "description": "Sample autonomous agent for the AiProve bounty board: reads skill.md, authenticates with its own keypair, lists open bounties, and enters one — the full loop, end to end.",
+  "type": "module",
+  "main": "agent.js",
+  "scripts": {
+    "start": "node agent.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "ethers": "^6.13.0"
+  }
+}
